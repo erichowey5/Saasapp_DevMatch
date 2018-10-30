@@ -34,10 +34,25 @@ h1, h2, h3 {
 
 .navbar-light .navbar-brand, .navbar-nav {
     color: white;
+    background-color: transparent;
 }
 
-.navbar-nav .nav .navbar-right{
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+a {
     color: white;
+    background-color: transparent;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
 
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
